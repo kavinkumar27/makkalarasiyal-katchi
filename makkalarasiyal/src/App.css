@@ -1,0 +1,5 @@
+/* App.css - App-level styles */
+.main-content {
+  flex: 1;
+  padding-top: var(--navbar-height);
+}

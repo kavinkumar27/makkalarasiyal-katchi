@@ -1,0 +1,42 @@
+.complaint-card {
+  background: white;
+  border-radius: var(--radius-xl);
+  padding: 48px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.complaint-header { text-align: center; margin-bottom: 32px; }
+.complaint-icon { font-size: 3rem; margin-bottom: 12px; }
+.complaint-header h2 { font-size: 1.8rem; font-weight: 800; margin-bottom: 4px; }
+.complaint-header-ta { font-family: var(--font-tamil); color: var(--text-muted); font-weight: 600; margin-bottom: 8px; }
+.complaint-header p:last-child { color: var(--text-secondary); }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.file-upload { position: relative; }
+.file-upload input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; z-index: 2; }
+.file-upload-label {
+  padding: 24px;
+  border: 2px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  transition: all var(--transition-fast);
+  background: var(--gray-50);
+}
+.file-upload:hover .file-upload-label { border-color: var(--blue); background: rgba(25,118,210,0.04); }
+
+.complaint-submit { width: 100%; margin-top: 8px; }
+
+.complaint-success { text-align: center; padding: 32px 0; }
+.success-anim { font-size: 4rem; margin-bottom: 16px; }
+.complaint-success h3 { font-size: 1.5rem; font-weight: 800; color: var(--green); margin-bottom: 4px; }
+.complaint-success p { color: var(--text-secondary); margin-bottom: 8px; }
+.complaint-success .btn { margin-top: 20px; }
+
+@media (max-width: 600px) {
+  .complaint-card { padding: 28px 20px; }
+  .form-row { grid-template-columns: 1fr; }
+}
