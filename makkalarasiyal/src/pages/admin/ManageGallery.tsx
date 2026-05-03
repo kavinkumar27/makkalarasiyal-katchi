@@ -63,7 +63,8 @@ const ManageGallery = () => {
             <select className="form-control" value={category} onChange={(e) => setCategory(e.target.value)}>
               <option>Campaign</option>
               <option>Public Meeting</option>
-              <option>Event</option>
+              <option>Membership & Posting</option>
+              <option>Blood Donation</option>
             </select>
           </div>
           <div className="form-group" style={{ marginBottom: 0 }}>

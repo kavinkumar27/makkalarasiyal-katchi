@@ -10,7 +10,7 @@ interface GalleryItem {
   image_path: string;
 }
 
-const categories = ['All', 'Campaign', 'Public Meeting', 'Event'];
+const categories = ['All', 'Campaign', 'Public Meeting', 'Membership & Posting', 'Blood Donation'];
 
 const Gallery = () => {
   const [images, setImages] = useState<GalleryItem[]>([]);

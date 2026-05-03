@@ -19,7 +19,7 @@ const About = () => {
   ];
 
   const leaders = [
-    { name: 'Party President', role: 'Founder & President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/images/leader.png' },
+    { name: 'Party President', role: 'Founder & President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/Leader Photos/leader-1.png' },
     { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/images/leader.png' },
     { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/images/leader.png' },
   ];
