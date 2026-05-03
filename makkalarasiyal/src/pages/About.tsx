@@ -1,7 +1,28 @@
-import { useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './About.css';
+import RulesModal from '../components/RulesModal';
+import BiographyModal from '../components/BiographyModal';
+
+import img1 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.22 PM.jpeg';
+import img2 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM (1).jpeg';
+import img3 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM (2).jpeg';
+import img4 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM.jpeg';
+import img5 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.17.53 PM.jpeg';
+import img6 from '../../public/PartyImages/WhatsApp Image 2026-04-28 at 6.38.30 AM.jpeg';
+
+const galleryImages = [
+  { person: img1, content: img1 },
+  { person: img2, content: img2 },
+  { person: img3, content: img3 },
+  { person: img4, content: img4 },
+  { person: img5, content: img5 },
+  { person: img6, content: img6 },
+];
 
 const About = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [showRules, setShowRules] = useState(false);
+  const [showBiography, setShowBiography] = useState(false);
   const refs = useRef<HTMLElement[]>([]);
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
@@ -36,6 +57,35 @@ const About = () => {
         </div>
       </section>
 
+      {/* Image Scrollable List */}
+      <section className="section-padding gallery-scroll-section">
+        <div className="container">
+          <div className="gallery-scroll-container">
+            <div className="gallery-scroll-track">
+              {galleryImages.map((item, i) => (
+                <img 
+                  key={i} 
+                  src={item.person} 
+                  alt={`Gallery ${i + 1}`} 
+                  className="gallery-scroll-image"
+                  onClick={() => setSelectedImage(item.content)}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Modal for Expanded Image */}
+      {selectedImage && (
+        <div className="image-modal-overlay" onClick={() => setSelectedImage(null)}>
+          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="image-modal-close" onClick={() => setSelectedImage(null)}>&times;</button>
+            <img src={selectedImage} alt="Expanded View" className="image-modal-img" />
+          </div>
+        </div>
+      )}
+
       {/* Party Description */}
       <section className="section-padding">
         <div className="container">
@@ -46,6 +96,10 @@ const About = () => {
               <p>Makkalarasial Katchi (மக்கள் அரசியல் கட்சி) is a people's political movement that emerged from the collective aspirations of Tamil Nadu's citizens. We are not just a political party — we are a movement that represents the voice of every farmer, worker, student, and homemaker.</p>
               <p>Our ideology is rooted in social justice, economic equality, and the fundamental belief that governance must serve the people, not the powerful. We champion transparent administration, inclusive development, and the empowerment of marginalized communities.</p>
               <p>With a growing network of dedicated volunteers across all 38 districts of Tamil Nadu, we are building a political force that is accountable, accessible, and action-oriented.</p>
+              <div className="about-action-buttons" style={{ display: 'flex', gap: '16px', marginTop: '32px', flexWrap: 'wrap' }}>
+                <button className="btn btn-primary" onClick={() => setShowRules(true)}>📜 Read Party Rules</button>
+                <button className="btn btn-outline" onClick={() => setShowBiography(true)}>👤 Leader Biography</button>
+              </div>
             </div>
             <div className="about-emblem reveal-right" ref={addRef}>
               <img src="/images/emblem.png" alt="Party Emblem" />
@@ -118,6 +172,9 @@ const About = () => {
           </div>
         </div>
       </section>
+      {showRules && <RulesModal onClose={() => setShowRules(false)} />}
+      {showBiography && <BiographyModal onClose={() => setShowBiography(false)} />}
+
     </div>
   );
 };
