@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 import AnnouncementTicker from '../components/AnnouncementTicker';
 import JoinModal from '../components/JoinModal';
 import { getLatestNews } from '../api';
-import leaderImage from '../../public/PartyImages/Leader Photos/leader-1.png';
+import leaderImage1 from '../../public/PartyImages/Leader Photos/leader-1.png';
+import leaderImage2 from '../../public/PartyImages/Leader Photos/WhatsApp Image 2026-04-28 at 8.27.57 PM.jpeg';
+import leaderImage3 from '../../public/PartyImages/Leader Photos/WhatsApp Image 2026-04-28 at 8.28.51 PM.jpeg';
+import leaderImage4 from '../../public/PartyImages/Leader Photos/WhatsApp Image 2026-04-28 at 8.29.42 PM.jpeg';
+
+const leaderImages = [leaderImage1, leaderImage2, leaderImage3, leaderImage4];
 import aboutImage from '../../public/PartyImages/campaign-img/WhatsApp Image 2026-04-26 at 7.58.30 PM.jpeg'
 import './Home.css';
 
@@ -18,7 +23,15 @@ interface NewsItem {
 const Home = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [showJoin, setShowJoin] = useState(false);
+  const [currentLeaderImage, setCurrentLeaderImage] = useState(0);
   const revealRefs = useRef<HTMLElement[]>([]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentLeaderImage((prev) => (prev + 1) % leaderImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [currentLeaderImage]);
 
   useEffect(() => {
     getLatestNews()
@@ -118,7 +131,29 @@ const Home = () => {
       <section className="section-padding leader-section" id="leader-section">
         <div className="container">
           <div className="leader-grid">
-            <div className="leader-image reveal-left" ref={addRef}><img src={leaderImage} alt="Party Leader" /><div className="leader-badge">Founder & President</div></div>
+            <div className="leader-image reveal-left" ref={addRef}>
+              <div className="carousel-container">
+                {leaderImages.map((img, index) => (
+                  <img
+                    key={index}
+                    src={img}
+                    alt={`Party Leader ${index + 1}`}
+                    className={`carousel-image ${index === currentLeaderImage ? 'active' : ''}`}
+                  />
+                ))}
+              </div>
+              <div className="leader-badge">Founder & President</div>
+              <div className="carousel-indicators">
+                {leaderImages.map((_, index) => (
+                  <button
+                    key={index}
+                    className={`indicator ${index === currentLeaderImage ? 'active' : ''}`}
+                    onClick={() => setCurrentLeaderImage(index)}
+                    aria-label={`Go to slide ${index + 1}`}
+                  />
+                ))}
+              </div>
+            </div>
             <div className="leader-content reveal-right" ref={addRef}>
               <span className="badge badge-red">Leadership</span>
               <h2>Leading with Vision & Integrity</h2>

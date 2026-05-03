@@ -368,10 +368,54 @@
   box-shadow: var(--shadow-xl);
 }
 
-.leader-image img {
+.carousel-container {
+  position: relative;
   width: 100%;
   height: 500px;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  z-index: 1;
+}
+
+.carousel-image.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 55px; /* Just above the badge */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 3;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.indicator.active {
+  background: white;
+  transform: scale(1.3);
 }
 
 .leader-badge {
@@ -384,6 +428,7 @@
   text-align: center;
   padding: 12px;
   font-weight: 700;
+  z-index: 4;
 }
 
 .leader-content .badge {
