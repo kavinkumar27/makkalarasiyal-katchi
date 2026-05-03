@@ -18,6 +18,21 @@
   --green-light: #66BB6A;
 
   /* Gradients */
+  --gradient-brand-text: linear-gradient(
+  to bottom,
+  #cc0000 0%,
+  #cc0000 28%,
+  #222222 28%,
+  #222222 31%,
+  #0000cc 31%,
+  #0000cc 50%,
+  #007700 50%,
+  #007700 69%,
+  #222222 69%,
+  #222222 72%,
+  #cc0000 72%,
+  #cc0000 100%
+);
   --gradient-brand: linear-gradient(135deg, #D32F2F 5%,
       #1976D2 33%,
       #388E3C 66%,

@@ -64,7 +64,7 @@
 .brand-name-en {
   font-weight: 800;
   font-size: 1.05rem;
-  background: var(--gradient-brand);
+  background: var(--gradient-brand-text);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
