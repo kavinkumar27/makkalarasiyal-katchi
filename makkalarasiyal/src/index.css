@@ -20,27 +20,23 @@
   /* Gradients */
   --gradient-brand-text: linear-gradient(
   to bottom,
-  #cc0000 0%,
-  #cc0000 28%,
-  #222222 28%,
-  #222222 31%,
+  #ff0000 0%,
+  #ff0000 28%,
   #0000cc 31%,
   #0000cc 50%,
   #007700 50%,
   #007700 69%,
-  #222222 69%,
-  #222222 72%,
-  #cc0000 72%,
-  #cc0000 100%
+  #ff0000 72%,
+  #ff0000 100%
 );
-  --gradient-brand: linear-gradient(135deg, #D32F2F 5%,
+  --gradient-brand: linear-gradient(135deg, #ff0000 5%,
       #1976D2 33%,
       #388E3C 66%,
-      #D32F2F 100%);
-  --gradient-brand-h: linear-gradient(90deg, #D32F2F 5%,
+      #ff0000 100%);
+  --gradient-brand-h: linear-gradient(90deg, #ff0000 5%,
       #1976D2 33%,
       #388E3C 66%,
-      #D32F2F 100%);
+      #ff0000 100%);
   --gradient-red-blue: linear-gradient(135deg, #D32F2F, #1976D2);
   --gradient-blue-green: linear-gradient(135deg, #1976D2, #388E3C);
   --gradient-dark: linear-gradient(180deg, #0a0a0a 0%, #1a1a2e 100%);
