@@ -13,17 +13,9 @@ const BiographyModal = ({ onClose }: Props) => {
           <button className="document-close-btn" onClick={onClose}>&times;</button>
         </div>
         <div className="document-modal-body">
-          <h3>Early Life and Education</h3>
-          <p>Born into a humble family in rural Tamil Nadu, our leader experienced firsthand the struggles of the working class. They pursued higher education with a focus on political science and public administration, always intending to give back to the community.</p>
-          
-          <h3>Public Service Journey</h3>
-          <p>Before founding Makkalarasial Katchi, they spent over a decade working alongside grassroots NGOs, advocating for farmers' rights and better educational infrastructure in underdeveloped districts. Their commitment to social justice earned them widespread respect among the youth and marginalized communities.</p>
-          
-          <h3>Founding the Party</h3>
-          <p>Driven by the lack of transparent and accountable governance, they established the party as a true "people's movement" (Makkal Arasiyal). The goal was to break the cycle of traditional politics and empower ordinary citizens to take charge of their future.</p>
-          
-          <h3>Vision for the Future</h3>
-          <p>Their life's mission is to see a Tamil Nadu where no citizen is left behind, where the government fears the people (not the other way around), and where every child has access to world-class education and healthcare. They lead by example, maintaining an open-door policy and strict adherence to anti-corruption principles.</p>
+          <h4>தலைவர் மற்றும் நிறுவனரான  S.வினோத்குமார் 6.10 1976 ஆம் ஆண்டு பிறந்தவர் தமிழகத்தை பூர்விகமாக கொண்டு உதயேந்திரம் என்னும் குக் கிராமத்தில் பிறந்தவர் சிறு வயது முதல் சமூக அக்கறையும் சமூக அவலங்களையும் தட்டிக் கேட்டவர் அவரது வாழ்க்கையில் சந்தித்த சில கசப்பான அனுபவங்கள் அவரை அரசியல் நோக்கி சென்றது பின்னர் பெரியாரின் கொள்கையும் நேதாஜி துணிச்சலும் அவருக்கு பிடித்துப் போனது அந்த வழியிலே பயணித்தார்  சிறிது காலம் பத்திரிகையாளராகவும் பணியாற்றியவர்  அடித்தட்டு மக்களுக்கான உரிமை களுக்காகவும் சிறு வயது முதல் போராடியவர் மனித உரிமைகளுக்காக குரல் கொடுத்தவர் பல சட்டப் போராட்டங்களை நடத்தியவர்</h4><br></br>
+          <p>மக்கள் அரசியல் கட்சி என்ற பெயரில்  கட்சியை 25.1.2019 அன்று  நிறுவினார் தலைவர்  S வினோத் குமார் அவர்கள்  கட்சியின் நோக்கம் சாதி மதம் மொழிகளுக்கு அப்பாற்பட்டு  மதச்சார்பின்மை, சமூக நீதி, சமதர்மம் ஜனநாயகத்தை காப்பது இந்திய இறையாண்மை காப்பது அனைவருக்கும் அனைத்தும் சமமாக கிடைக்க பாடுபடுவது லட்சியமாக கொண்டு தொடங்கப்பட்டது</p>
+
         </div>
       </div>
     </div>
