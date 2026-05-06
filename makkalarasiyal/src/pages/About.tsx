@@ -3,12 +3,17 @@ import './About.css';
 import RulesModal from '../components/RulesModal';
 import BiographyModal from '../components/BiographyModal';
 
-import img1 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.22 PM.jpeg';
-import img2 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM (1).jpeg';
-import img3 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM (2).jpeg';
-import img4 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM.jpeg';
-import img5 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.17.53 PM.jpeg';
-import img6 from '../../public/PartyImages/WhatsApp Image 2026-04-28 at 6.38.30 AM.jpeg';
+import img1 from '../../public/PartyImages/AboutImage/Leader1.jpg';
+import img2 from '../../public/PartyImages/AboutImage/Leader2.jpg';
+import img3 from '../../public/PartyImages/AboutImage/Leader3.jpg';
+import img4 from '../../public/PartyImages/AboutImage/Leader4.jpg';
+import img5 from '../../public/PartyImages/AboutImage/Leader5.jpg';
+import img6 from '../../public/PartyImages/AboutImage/Leader6.jpg';
+
+import img7 from '../../public/PartyImages/AboutImage/Leader7.jpg';
+import img8 from '../../public/PartyImages/AboutImage/Leader8.jpeg';
+import img9 from '../../public/PartyImages/AboutImage/Leader9.jpeg';
+
 import PartyLogo from '../../public/PartyImages/FLag/flag-1.png';
 
 const galleryImages = [
@@ -18,12 +23,9 @@ const galleryImages = [
   { person: img4, content: img4 },
   { person: img5, content: img5 },
   { person: img6, content: img6 },
-  { person: img1, content: img1 },
-  { person: img2, content: img2 },
-  { person: img3, content: img3 },
-  { person: img4, content: img4 },
-  { person: img5, content: img5 },
-  { person: img6, content: img6 },
+  { person: img7, content: img7 },
+  { person: img8, content: img8 },
+  { person: img9, content: img9 },
 ];
 // mama can we adjust this 10 images into 5by5 grids ( 2rows and 5 columns)
 
@@ -50,7 +52,7 @@ const About = () => {
 
   const leaders = [
     { name: 'Party President', role: 'Founder & State President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/Leader Photos/leader-1.png' },
-    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/Leader Photos/lead3.png' },
+    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/Leader Photos/leade-3.png' },
     { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/PartyImages/Leader Photos/leader-4.png' },
   ];
 
