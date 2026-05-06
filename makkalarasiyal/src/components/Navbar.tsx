@@ -36,7 +36,7 @@ const Navbar = () => {
               {/* <span className="brand-letter"><img src="/images/logo.png" alt="Logo" /></span> */}
             </div>
             <div className="brand-text">
-              <span className="brand-name-en">Makkalarasial Katchi</span>
+              <span className="brand-name-en"> MAKKALARASIAL KATCHI</span>
               <span className="brand-name-ta">மக்கள் அரசியல் கட்சி</span>
             </div>
           </Link>

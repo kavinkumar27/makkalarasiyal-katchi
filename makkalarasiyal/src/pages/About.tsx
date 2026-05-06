@@ -9,6 +9,7 @@ import img3 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23
 import img4 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.13.23 PM.jpeg';
 import img5 from '../../public/PartyImages/WhatsApp Image 2026-04-27 at 11.17.53 PM.jpeg';
 import img6 from '../../public/PartyImages/WhatsApp Image 2026-04-28 at 6.38.30 AM.jpeg';
+import PartyLogo from '../../public/PartyImages/FLag/flag-1.png';
 
 const galleryImages = [
   { person: img1, content: img1 },
@@ -17,7 +18,15 @@ const galleryImages = [
   { person: img4, content: img4 },
   { person: img5, content: img5 },
   { person: img6, content: img6 },
+  { person: img1, content: img1 },
+  { person: img2, content: img2 },
+  { person: img3, content: img3 },
+  { person: img4, content: img4 },
+  { person: img5, content: img5 },
+  { person: img6, content: img6 },
 ];
+// mama can we adjust this 10 images into 5by5 grids ( 2rows and 5 columns)
+
 
 const About = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -32,17 +41,17 @@ const About = () => {
   const addRef = (el: HTMLElement | null) => { if (el && !refs.current.includes(el)) refs.current.push(el); };
 
   const timeline = [
-    { year: '2024', title: 'Party Founded', desc: 'Makkalarasial Katchi was officially established with a vision for people-first governance.' },
-    { year: '2024', title: 'First District Office', desc: 'Opened our first district office in Chennai, marking the beginning of our grassroots expansion.' },
-    { year: '2025', title: 'Youth Wing Launch', desc: 'Launched the youth wing to empower young leaders across Tamil Nadu.' },
-    { year: '2025', title: 'Membership Milestone', desc: 'Crossed 50,000 registered members across 38 districts.' },
+    { year: '2019', title: 'Party Founded', desc: 'Makkalarasial Katchi was officially established with a vision for people-first governance.' },
+    { year: '2019', title: 'First District Office', desc: 'Opened our first district office in Chennai, marking the beginning of our grassroots expansion.' },
+    { year: '2020', title: 'Youth Wing Launch', desc: 'Launched the youth wing to empower young leaders across Tamil Nadu.' },
+    { year: '2022', title: 'Membership Milestone', desc: 'Crossed 50,000 registered members across 38 districts.' },
     { year: '2026', title: 'Community Programs', desc: 'Launched free education, healthcare, and skill development programs statewide.' },
   ];
 
   const leaders = [
-    { name: 'Party President', role: 'Founder & President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/Leader Photos/leader-1.png' },
-    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/images/leader.png' },
-    { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/images/leader.png' },
+    { name: 'Party President', role: 'Founder & State President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/Leader Photos/leader-1.png' },
+    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/Leader Photos/lead3.png' },
+    { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/PartyImages/Leader Photos/leader-4.png' },
   ];
 
   return (
@@ -94,15 +103,15 @@ const About = () => {
               <h2>Who We Are</h2>
               <p className="about-ta">நாங்கள் யார்</p>
               <p>Makkalarasial Katchi (மக்கள் அரசியல் கட்சி) is a people's political movement that emerged from the collective aspirations of Tamil Nadu's citizens. We are not just a political party — we are a movement that represents the voice of every farmer, worker, student, and homemaker.</p>
-              <p>Our ideology is rooted in social justice, economic equality, and the fundamental belief that governance must serve the people, not the powerful. We champion transparent administration, inclusive development, and the empowerment of marginalized communities.</p>
+             <p>சமூக நீதி காப்பது ஜனநாயகம் காப்பது சம உரிமைக்காக பாடுபடுவது பெண்ணுரிமைக்காக பாடுபடுவது சம தர்மம் காப்பது சாதி மதசார்பின்மை காக்க பாடப்படுவது எல்லோருக்கும் எல்லாம் கிடைக்க பாடுப்படுவது அதுவே எனது நோக்கம் மக்கள் அரசியல் கட்சி நிறுவனர் மற்றும் மாநிலத் தலைவர் வினோத்குமார்</p>
               <p>With a growing network of dedicated volunteers across all 38 districts of Tamil Nadu, we are building a political force that is accountable, accessible, and action-oriented.</p>
               <div className="about-action-buttons" style={{ display: 'flex', gap: '16px', marginTop: '32px', flexWrap: 'wrap' }}>
                 <button className="btn btn-primary" onClick={() => setShowRules(true)}>📜 Read Party Rules</button>
-                <button className="btn btn-outline" onClick={() => setShowBiography(true)}>👤 Leader Biography</button>
+                <button className="btn btn-outline biograph-btn" onClick={() => setShowBiography(true)}>👤 Leader Biography</button>
               </div>
             </div>
             <div className="about-emblem reveal-right" ref={addRef}>
-              <img src="/images/emblem.png" alt="Party Emblem" />
+              <img src={PartyLogo} alt="Party Emblem" />
               <p className="emblem-caption">Our Party Emblem — Symbol of Unity & Strength</p>
             </div>
           </div>

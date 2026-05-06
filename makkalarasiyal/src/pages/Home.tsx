@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import AnnouncementTicker from '../components/AnnouncementTicker';
 import JoinModal from '../components/JoinModal';
 import { getLatestNews } from '../api';
+// leader images
 import leaderImage1 from '../../public/PartyImages/Leader Photos/leader-1.png';
-import leaderImage2 from '../../public/PartyImages/Leader Photos/WhatsApp Image 2026-04-28 at 8.27.57 PM.jpeg';
-import leaderImage3 from '../../public/PartyImages/Leader Photos/WhatsApp Image 2026-04-28 at 8.28.51 PM.jpeg';
-import leaderImage4 from '../../public/PartyImages/Leader Photos/WhatsApp Image 2026-04-28 at 8.29.42 PM.jpeg';
+import leaderImage2 from '../../public/PartyImages/Leader Photos/lead1.jpeg';
+import leaderImage3 from '../../public/PartyImages/Leader Photos/lead3.jpeg';
+import leaderImage4 from '../../public/PartyImages/Leader Photos/lead4.jpeg';
 
+//Home Page Leader Carousel Images
 const leaderImages = [leaderImage1, leaderImage2, leaderImage3, leaderImage4];
 import aboutImage from '../../public/PartyImages/campaign-img/WhatsApp Image 2026-04-26 at 7.58.30 PM.jpeg'
 import './Home.css';
@@ -142,7 +144,7 @@ const Home = () => {
                   />
                 ))}
               </div>
-              <div className="leader-badge">Founder & President</div>
+              <div className="leader-badge">Founder & State President</div>
               <div className="carousel-indicators">
                 {leaderImages.map((_, index) => (
                   <button
@@ -160,11 +162,12 @@ const Home = () => {
               <p className="leader-ta">நேர்மையான தலைமை</p>
               <p>Our leader has dedicated their life to public service, fighting for the rights of farmers, workers, and the underprivileged.</p>
               <p>"Every citizen deserves a government that listens, a leader who acts, and a future that inspires."</p>
-              <div className="leader-quote-attr">— வினோத்குமார்</div>
+              <div className="leader-quote-attr">— வினோத்குமார் (Founder & State President)</div>
             </div>
           </div>
         </div>
       </section>
+      
 
       {/* Latest News */}
       <section className="section-padding news-section" id="news-section">

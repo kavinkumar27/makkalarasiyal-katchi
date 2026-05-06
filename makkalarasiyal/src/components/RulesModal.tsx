@@ -13,24 +13,57 @@ const RulesModal = ({ onClose }: Props) => {
           <button className="document-close-btn" onClick={onClose}>&times;</button>
         </div>
         <div className="document-modal-body">
-          <h3>1. Membership and Conduct</h3>
-          <p>All members must adhere to the core principles of Makkalarasial Katchi. Any behavior that contradicts our values of social justice and transparency may result in suspension or expulsion from the party.</p>
-          
-          <h3>2. Democratic Participation</h3>
-          <p>Decisions at the district level must involve open forums where local volunteers have a voice. No single member holds absolute authority over district committees.</p>
-          
-          <h3>3. Anti-Corruption Policy</h3>
-          <ul>
-            <li>Members must not engage in bribery or nepotism.</li>
-            <li>All political donations must be transparent and documented.</li>
-            <li>Public resources must be protected and used efficiently.</li>
-          </ul>
-
-          <h3>4. Respect and Equality</h3>
-          <p>The party strictly prohibits discrimination based on caste, religion, gender, or economic status. We stand for true equality among all citizens of Tamil Nadu.</p>
-
-          <h3>5. Dedication to the Cause</h3>
-          <p>We are a movement of action. Volunteers and members are expected to actively participate in community service and local outreach programs, continually representing the party with integrity.</p>
+          <p>1. ஜாதி மதம் மொழி சார்ந்த கட்சி கிடையாது.<br></br>
+            2. அனைவருக்கும் பொதுவான கட்சியாகும்.<br></br>
+            3. விவசாயிகளின் வாழ்வாதாரத்திற்காக குரல் கொடுப்பது.<br></br>
+            4. இயற்கை வளங்களை காக்க பாடுபடுவது.<br></br>
+            5. லஞ்சம் ஊழல் தடுக்க பாடுபடுவது.<br></br>
+            6. தனிமனிதரின் அடிப்படை உரிமைக்காக பாடுபடுவது.<br></br>
+            7. மாற்றுத்திறனாளிகளின் வாழ்வாதாரத்திற்காக பாடுபடுவது.<br></br>
+            8. மீனவர்கள் வாழ்வாதாரத்திற்காக பாடுபடுவது.<br></br>
+            9. சுயமரியாதை திருமணத்தை ஆதரிப்பது.<br></br>
+            10. கலப்பு திருமணத்தை ஊக்குவிப்பது.<br></br></p><p>
+            11. அனைத்து தொழிலாளர் நலன் காக்க பாடுபடுவது.<br></br>
+            12. கட்டப்பஞ்சாயத்து கந்துவட்டி தடுக்க பாடுபடுவது.<br></br>
+            13. பெண்கள் உரிமைக்காக பாடுபடுவது.<br></br>
+            14. பெண்களுக்கு எதிரான பாலியல் குற்றங்களை தடுக்க பாடுபடுவது.<br></br>
+            15. மது ஒழிப்பிற்காக பாடுபடுவது.<br></br>
+            16. தரமான கல்வி கிடைக்க பாடுபடுவது.<br></br>
+            17. சிறுபான்மையினர் கிறிஸ்துவ முஸ்லீம் வாழ்வாதாரத்திற்காக பாடுபடுவது.<br></br>
+            18. ஆபாச திரைப்படங்கள் மற்றும் ஆபாச இணையதளங்களை தடுக்க பாடுபடுவது.<br></br>
+            19. தரமான மருத்துவம் கிடைக்க பாடுபடுவது.<br></br>
+            20. நெசவாளர் வாழ்வாதாரத்திற்காக பாடுபடுவது.<br></br></p><p>
+            21. தேயிலை தொழிலாளர் நலனுக்காக பாடுபடுவது.<br></br>
+            22. அனைத்து வாகன ஓட்டுனர்கள் நலன் காக்க பாடுபடுவது.<br></br>
+            23. சுத்தமான காற்று கிடைக்க பாடுபடுவது.<br></br>
+            24. நிலத்தடி நீர் உறிஞ்சுவதை தடுப்பது.<br></br>
+            25. மரங்கள் வெட்டுவதை தடுக்க பாடுபடுவது.<br></br>
+            26. பனை விவசாயிகள் நலன் காக்க பாடுபடுவது.<br></br>
+            27. சட்ட விழிப்புணர்வு ஏற்படுத்துவது.<br></br>
+            28. விதவைப் பெண்கள் நலன் காக்க பாடுபடுவது.<br></br>
+            29. கல்லூரி படிக்கும் மாணவ மாணவிகள் உரிமைக்காக பாடுபடுவது.<br></br>
+            30. இளைஞர்களுக்கு சம வேலை வாய்ப்புக்காக பாடுபடுவது.<br></br></p><p>
+            31. மலைவாழ் மக்கள் வாழ்வாதாரத்திற்காக பாடுபடுவது.<br></br>
+            32. அமைப்புசாரா தொழிலாளர்களுக்கு குரல் கொடுப்பது.<br></br>
+            33. பாரம்பரிய விளையாட்டுகளை ஊக்குவிப்பது.<br></br>
+            34. மக்களை பாதிக்கும் எந்த திட்டமாக இருந்தாலும் அதை எதிர்ப்பது.<br></br>
+            35. வெளிநாட்டு வாழ் இந்தியர்களுக்காக குரல் கொடுப்பது.<br></br>
+            36. தமிழகம் முழுவதும் இலவச ஆம்புலன்ஸ் இயக்க பாடுபடுவது.<br></br>
+            37. தமிழகம் முழுவதும் இருப்பதை இல்லாதவர்களுக்கு கொடுக்கும் திட்டத்தை தொடங்குவது.<br></br>
+            38. வணிகர்கள் நலன் காக்க பாடுபடுவது.<br></br>
+            39. நுகர்வோர் நலன் காக்க பாடுபடுவது.<br></br>
+            40. கூலி தொழிலாளிகள் நலன் காக்க பாடுபடுவது.<br></br></p><p>
+            41. சமூகத்தில் நீங்கள் எந்த வழியில் பாதிக்கப்பட்டிருந்தாலும் உங்களுக்காக நாங்கள் பாடுபடுகிறோம்.<br></br>
+          42. போதை இல்லாத தமிழகத்தை உருவாக்குவோம்.<br></br>
+          43 தமிழர்களுக்காகவும் தமிழ் மொழிக்காகவும் பாடுபடுவோம்<br></br>
+          44 சனாதனத்தை எதிர்ப்போம்<br></br>
+          45.மனித உரிமை களுக்காகவும் காவல் நிலைய லாக்கப் மரணங்களுக்காகவும் எதிராக குரல் கொடுப்போம்<br></br>
+          46. ஆணவ படுகொலைக்கு எதிராக குரல் கொடுப்போம்<br></br>
+          47. பாதிக்கப்பட்ட மக்களுக்கு சட்டப் போராட்டம் நடத்துவது<br></br>
+          48. நில மோசடி. சிட்பண்ட்ஸ் மோசடி. எதிராக குரல் கொடுப்பது<br></br>
+          49. சாதி இல்லாத சமூகத்தை உருவாக்கும்  எம்மதமும் சம்மதம் என உணர பாடுபடுவோம்<br></br>
+          50. திருநங்கைகள் வாழ்வாதாரம் உயர குரல் கொடுப்போம்<br></br>
+          </p>
         </div>
       </div>
     </div>
