@@ -13,6 +13,20 @@ const RulesModal = ({ onClose }: Props) => {
           <button className="document-close-btn" onClick={onClose}>&times;</button>
         </div>
         <div className="document-modal-body">
+          <section>
+            <h3>1. ஜாதி மதம் மொழி சார்ந்த கட்சி கிடையாது</h3>
+            <div className='rules-gallery'>
+              <img src="/PartyImages/rules/1/sample.jpg" alt="Rule 1" />
+              <img src="/PartyImages/rules/1/sample.jpg" alt="Rule 1" />
+            </div>
+          </section>
+          <section>
+            <h3>2. அனைவருக்கும் பொதுவான கட்சியாகும்.</h3>
+            <div className='rules-gallery'>
+              <img src="/PartyImages/rules/1/sample.jpg" alt="Rule 1" />
+              <img src="/PartyImages/rules/1/sample.jpg" alt="Rule 1" />
+            </div>
+          </section>
           <p>1. ஜாதி மதம் மொழி சார்ந்த கட்சி கிடையாது.<br></br>
             2. அனைவருக்கும் பொதுவான கட்சியாகும்.<br></br>
             3. விவசாயிகளின் வாழ்வாதாரத்திற்காக குரல் கொடுப்பது.<br></br>

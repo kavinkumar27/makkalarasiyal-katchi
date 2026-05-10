@@ -87,3 +87,19 @@
 .document-modal-body li {
   margin-bottom: 8px;
 }
+
+
+.rules-gallery {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+.rules-gallery img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  object-fit: cover;
+}

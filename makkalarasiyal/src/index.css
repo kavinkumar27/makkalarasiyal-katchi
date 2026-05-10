@@ -122,11 +122,11 @@ body {
   flex-direction: column;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 a {
   text-decoration: none;
