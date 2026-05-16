@@ -88,7 +88,7 @@
 
 /* Gallery Scroll */
 .gallery-scroll-section { padding-bottom: 0; }
-.gallery-scroll-container { width: 100%; overflow-x: auto; padding: 10px 0; -ms-overflow-style: none; scrollbar-width: none; }
+.gallery-scroll-container { width: 100%; overflow-x: auto; padding: 10px 0; -ms-overflow-style: none; scrollbar-width: none;  }
 .gallery-scroll-container::-webkit-scrollbar { display: none; }
 .gallery-scroll-track { display: flex; gap: 16px; width: max-content; }
 .gallery-scroll-image { height: 180px; width: 180px; border-radius: 50%; object-fit: cover; object-position: center 10%; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease; box-shadow: var(--shadow-sm); border: 4px solid white; }

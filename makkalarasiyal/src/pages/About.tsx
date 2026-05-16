@@ -5,27 +5,18 @@ import BiographyModal from '../components/BiographyModal';
 
 import img1 from '../../public/PartyImages/AboutImage/Leader1.jpg';
 import img2 from '../../public/PartyImages/AboutImage/Leader2.jpg';
-import img3 from '../../public/PartyImages/AboutImage/Leader3.jpg';
-import img4 from '../../public/PartyImages/AboutImage/Leader4.jpg';
-import img5 from '../../public/PartyImages/AboutImage/Leader5.jpg';
-import img6 from '../../public/PartyImages/AboutImage/Leader6.jpg';
-
+import img0 from '../../public/PartyImages/AboutImage/Leader0.jpeg';
 import img7 from '../../public/PartyImages/AboutImage/Leader7.jpg';
-import img8 from '../../public/PartyImages/AboutImage/Leader8.jpeg';
-import img9 from '../../public/PartyImages/AboutImage/Leader9.jpeg';
+import img10 from '../../public/PartyImages/AboutImage/Leader10.jpg';
 
 import PartyLogo from '../../public/PartyImages/FLag/flag-1.png';
 
 const galleryImages = [
   { person: img1, content: img1 },
   { person: img2, content: img2 },
-  { person: img3, content: img3 },
-  { person: img4, content: img4 },
-  { person: img5, content: img5 },
-  { person: img6, content: img6 },
+  { person: img0, content: img0 },
   { person: img7, content: img7 },
-  { person: img8, content: img8 },
-  { person: img9, content: img9 },
+  { person: img10, content: img10 },
 ];
 // mama can we adjust this 10 images into 5by5 grids ( 2rows and 5 columns)
 
@@ -51,9 +42,9 @@ const About = () => {
   ];
 
   const leaders = [
-    { name: 'Party President', role: 'Founder & State President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/Leader Photos/leader-1.png' },
-    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/Leader Photos/leade-3.png' },
-    { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/PartyImages/Leader Photos/leader-4.png' },
+    { name: 'Party President', role: 'Founder & State President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/LeaderPhotos/lead2.jpeg' },
+    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/LeaderPhotos/lead3.jpeg' },
+    { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/PartyImages/LeaderPhotos/lead4.jpeg' },
   ];
 
   return (
@@ -72,17 +63,19 @@ const About = () => {
       <section className="section-padding gallery-scroll-section">
         <div className="container">
           <div className="gallery-scroll-container">
-            <div className="gallery-scroll-track">
-              {galleryImages.map((item, i) => (
-                <img 
-                  key={i} 
-                  src={item.person} 
-                  alt={`Gallery ${i + 1}`} 
-                  className="gallery-scroll-image"
-                  onClick={() => setSelectedImage(item.content)}
-                />
-              ))}
-            </div>
+            <center>
+              <div className="gallery-scroll-track">
+                {galleryImages.map((item, i) => (
+                  <img
+                    key={i}
+                    src={item.person}
+                    alt={`Gallery ${i + 1}`}
+                    className="gallery-scroll-image"
+                    onClick={() => setSelectedImage(item.content)}
+                  />
+                ))}
+              </div>
+            </center>
           </div>
         </div>
       </section>
@@ -105,7 +98,7 @@ const About = () => {
               <h2>Who We Are</h2>
               <p className="about-ta">நாங்கள் யார்</p>
               <p>Makkalarasial Katchi (மக்கள் அரசியல் கட்சி) is a people's political movement that emerged from the collective aspirations of Tamil Nadu's citizens. We are not just a political party — we are a movement that represents the voice of every farmer, worker, student, and homemaker.</p>
-             <p>சமூக நீதி காப்பது ஜனநாயகம் காப்பது சம உரிமைக்காக பாடுபடுவது பெண்ணுரிமைக்காக பாடுபடுவது சம தர்மம் காப்பது சாதி மதசார்பின்மை காக்க பாடப்படுவது எல்லோருக்கும் எல்லாம் கிடைக்க பாடுப்படுவது அதுவே எனது நோக்கம் மக்கள் அரசியல் கட்சி நிறுவனர் மற்றும் மாநிலத் தலைவர் வினோத்குமார்</p>
+              <p>சமூக நீதி காப்பது ஜனநாயகம் காப்பது சம உரிமைக்காக பாடுபடுவது பெண்ணுரிமைக்காக பாடுபடுவது சம தர்மம் காப்பது சாதி மதசார்பின்மை காக்க பாடப்படுவது எல்லோருக்கும் எல்லாம் கிடைக்க பாடுப்படுவது அதுவே எனது நோக்கம் மக்கள் அரசியல் கட்சி நிறுவனர் மற்றும் மாநிலத் தலைவர் வினோத்குமார்</p>
               <p>With a growing network of dedicated volunteers across all 38 districts of Tamil Nadu, we are building a political force that is accountable, accessible, and action-oriented.</p>
               <div className="about-action-buttons" style={{ display: 'flex', gap: '16px', marginTop: '32px', flexWrap: 'wrap' }}>
                 <button className="btn btn-primary" onClick={() => setShowRules(true)}>📜 Read Party Rules</button>
