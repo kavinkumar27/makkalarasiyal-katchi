@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3307',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'localhost:3306',
+	'username' => 'makkalarasiyal_admin',
+	'password' => 'makkalarasiyal_admin',
 	'database' => 'makkalarasiyal_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

@@ -4,10 +4,10 @@ import AnnouncementTicker from '../components/AnnouncementTicker';
 import JoinModal from '../components/JoinModal';
 import { getLatestNews } from '../api';
 // leader images
-import leaderImage1 from '../../public/PartyImages/Leader Photos/leader-1.png';
-import leaderImage2 from '../../public/PartyImages/Leader Photos/lead1.jpeg';
-import leaderImage3 from '../../public/PartyImages/Leader Photos/lead3.jpeg';
-import leaderImage4 from '../../public/PartyImages/Leader Photos/lead4.jpeg';
+import leaderImage1 from '../../public/PartyImages/LeaderPhotos/leader-1.png';
+import leaderImage2 from '../../public/PartyImages/LeaderPhotos/lead1.jpeg';
+import leaderImage3 from '../../public/PartyImages/LeaderPhotos/lead3.jpeg';
+import leaderImage4 from '../../public/PartyImages/LeaderPhotos/lead4.jpeg';
 
 //Home Page Leader Carousel Images
 const leaderImages = [leaderImage1, leaderImage2, leaderImage3, leaderImage4];

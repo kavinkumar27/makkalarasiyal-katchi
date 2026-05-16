@@ -39,7 +39,7 @@
 .brand-icon {
   width: 44px;
   height: 44px;
-  background-image: url('../../public/PartyImages/FLag/logo1.png');
+  background-image: url('../../public/PartyImages/LeaderPhotos/lead1.jpeg');
   background-size: cover;
   z-index: 0;
   border-radius: var(--radius-full);
@@ -69,8 +69,8 @@
 }
 
 .brand-logo-ta {
-  width: auto !important;
-  height: 14px;
+  width: 220px !important;
+  height: 16px;
   max-width: auto !important;
 }
 

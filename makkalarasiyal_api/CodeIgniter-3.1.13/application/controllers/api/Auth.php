@@ -21,6 +21,11 @@ class Auth extends Api_Controller {
 
         $user = $this->User_model->get_by_username($username);
 
+//         $hash = password_hash($password, PASSWORD_DEFAULT);
+
+// echo $hash."\n";
+// echo strlen($hash);
+
         if ($user && password_verify($password, $user->password)) {
             $token = bin2hex(random_bytes(32));
             $this->User_model->update_token($user->id, $token);

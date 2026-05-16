@@ -58,33 +58,33 @@ $route['translate_uri_dashes'] = FALSE;
 // ============================================
 
 // Auth
-$route['api/auth/login']['POST'] = 'api/auth/login';
-$route['api/auth/logout']['POST'] = 'api/auth/logout';
+$route['auth/login']['POST'] = 'api/Auth/login';
+$route['auth/logout']['POST'] = 'api/Auth/logout';
 
 // Dashboard
-$route['api/dashboard']['GET'] = 'api/dashboardapi/index';
+$route['dashboard']['GET'] = 'api/DashboardApi/index';
 
 // Gallery
-$route['api/gallery']['GET'] = 'api/galleryapi/index';
-$route['api/gallery/upload']['POST'] = 'api/galleryapi/upload';
-$route['api/gallery/(:num)']['DELETE'] = 'api/galleryapi/delete/$1';
+$route['gallery']['GET'] = 'api/GalleryApi/index';
+$route['gallery/upload']['POST'] = 'api/GalleryApi/upload';
+$route['gallery/(:num)']['DELETE'] = 'api/GalleryApi/delete/$1';
 
 // News
-$route['api/news']['GET'] = 'api/newsapi/index';
-$route['api/news/create']['POST'] = 'api/newsapi/create';
-$route['api/news/update/(:num)']['POST'] = 'api/newsapi/update/$1';
-$route['api/news/(:num)']['GET'] = 'api/newsapi/show/$1';
-$route['api/news/(:num)']['DELETE'] = 'api/newsapi/delete/$1';
+$route['news']['GET'] = 'api/NewsApi/index';
+$route['news/create']['POST'] = 'api/NewsApi/create';
+$route['news/update/(:num)']['POST'] = 'api/NewsApi/update/$1';
+$route['news/(:num)']['GET'] = 'api/NewsApi/show/$1';
+$route['news/(:num)']['DELETE'] = 'api/NewsApi/delete/$1';
 
 // Contact / Enquiries
-$route['api/contact']['GET'] = 'api/contactapi/index';
-$route['api/contact']['POST'] = 'api/contactapi/submit';
-$route['api/contact/resolve/(:num)']['PUT'] = 'api/contactapi/resolve/$1';
-$route['api/contact/(:num)']['DELETE'] = 'api/contactapi/delete/$1';
+$route['contact']['GET'] = 'api/ContactApi/index';
+$route['contact']['POST'] = 'api/ContactApi/submit';
+$route['contact/resolve/(:num)']['PUT'] = 'api/ContactApi/resolve/$1';
+$route['contact/(:num)']['DELETE'] = 'api/ContactApi/delete/$1';
 
 // Complaints
-$route['api/complaint']['GET'] = 'api/complaintapi/index';
-$route['api/complaint']['POST'] = 'api/complaintapi/submit';
-$route['api/complaint/resolve/(:num)']['PUT'] = 'api/complaintapi/resolve/$1';
-$route['api/complaint/(:num)']['DELETE'] = 'api/complaintapi/delete/$1';
+$route['complaint']['GET'] = 'api/ComplaintApi/index';
+$route['complaint']['POST'] = 'api/ComplaintApi/submit';
+$route['complaint/resolve/(:num)']['PUT'] = 'api/ComplaintApi/resolve/$1';
+$route['complaint/(:num)']['DELETE'] = 'api/ComplaintApi/delete/$1';
 
