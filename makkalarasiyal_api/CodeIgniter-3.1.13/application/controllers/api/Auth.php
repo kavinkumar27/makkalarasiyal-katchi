@@ -45,3 +45,4 @@ class Auth extends Api_Controller {
         $this->json_response(array('status' => 'success', 'message' => 'Logged out'));
     }
 }
+
