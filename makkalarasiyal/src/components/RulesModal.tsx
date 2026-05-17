@@ -265,7 +265,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>38. வணிகர்கள் நலன் காக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r38.jpg" alt="Rule 38" />
+              <img src="/PartyImages/rules/r38.jpeg" alt="Rule 38" />
             </div>
           </section>
 
@@ -286,7 +286,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>41. சமூகத்தில் நீங்கள் எந்த வழியில் பாதிக்கப்பட்டிருந்தாலும் உங்களுக்காக நாங்கள் பாடுபடுகிறோம்.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r41.jpg" alt="Rule 41" />
+              <img src="/PartyImages/rules/r41.png" alt="Rule 41" />
             </div>
           </section>
 
@@ -314,14 +314,14 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>45. மனித உரிமைகளுக்காகவும் காவல் நிலைய லாக்கப் மரணங்களுக்கு எதிராக குரல் கொடுப்போம்.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r45.jpg" alt="Rule 45" />
+              <img src="/PartyImages/rules/r45.jpeg" alt="Rule 45" />
             </div>
           </section>
 
           <section>
             <h3>46. ஆணவ படுகொலைக்கு எதிராக குரல் கொடுப்போம்.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r46.jpg" alt="Rule 46" />
+              <img src="/PartyImages/rules/r46.webp" alt="Rule 46" />
             </div>
           </section>
 
@@ -335,7 +335,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>48. நில மோசடி, சிட்பண்ட்ஸ் மோசடிக்கு எதிராக குரல் கொடுப்பது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r48.jpg" alt="Rule 48" />
+              <img src="/PartyImages/rules/r48.avif" alt="Rule 48" />
             </div>
           </section>
 

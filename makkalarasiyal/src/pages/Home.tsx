@@ -5,7 +5,7 @@ import JoinModal from '../components/JoinModal';
 import { getLatestNews } from '../api';
 // leader images
 import leaderImage1 from '../../public/PartyImages/LeaderPhotos/lead2.jpeg';
-import leaderImage2 from '../../public/PartyImages/LeaderPhotos/lead6.jpeg'
+import leaderImage2 from '../../public/PartyImages/LeaderPhotos/lead7.jpeg'
 import leaderImage3 from '../../public/PartyImages/LeaderPhotos/lead3.jpeg';
 import leaderImage4 from '../../public/PartyImages/LeaderPhotos/lead4.jpeg';
 
