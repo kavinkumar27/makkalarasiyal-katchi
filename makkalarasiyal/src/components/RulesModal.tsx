@@ -16,7 +16,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>1. ஜாதி மதம் மொழி சார்ந்த கட்சி கிடையாது</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/1/1.png" alt="Rule 1" />
+              <img src="/PartyImages/rules/r1.jpg" alt="Rule 1" />
             </div>
           </section>
           <section>
@@ -34,13 +34,13 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>4. இயற்கை வளங்களை காக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r4.jpg" alt="Rule 1" />
+              <img src="/PartyImages/rules/r4.jpeg" alt="Rule 1" />
             </div>
           </section>
           <section>
             <h3>5. லஞ்சம் ஊழல் தடுக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r5.jpg" alt="Rule 1" />
+              <img src="/PartyImages/rules/r5.jpeg" alt="Rule 1" />
             </div>
           </section>
           <section>
@@ -52,7 +52,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>7. மாற்றுத்திறனாளிகளின் வாழ்வாதாரத்திற்காக பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r7.jpg" alt="Rule 1" />
+              <img src="/PartyImages/rules/r7.jpeg" alt="Rule 1" />
             </div>
           </section>
           <section>
@@ -83,7 +83,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>12. கட்டப்பஞ்சாயத்து கந்துவட்டி தடுக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r12.jpg" alt="Rule 12" />
+              <img src="/PartyImages/rules/r12.jpeg" alt="Rule 12" />
             </div>
           </section>
 
@@ -139,21 +139,21 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>20. நெசவாளர் வாழ்வாதாரத்திற்காக பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r20.jpg" alt="Rule 20" />
+              <img src="/PartyImages/rules/r20.jpeg" alt="Rule 20" />
             </div>
           </section>
 
           <section>
             <h3>21. தேயிலை தொழிலாளர் நலனுக்காக பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r21.jpg" alt="Rule 21" />
+              <img src="/PartyImages/rules/r21.jpeg" alt="Rule 21" />
             </div>
           </section>
 
           <section>
             <h3>22. அனைத்து வாகன ஓட்டுனர்கள் நலன் காக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r22.jpg" alt="Rule 22" />
+              <img src="/PartyImages/rules/r22.jpeg" alt="Rule 22" />
             </div>
           </section>
 
@@ -174,14 +174,14 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>25. மரங்கள் வெட்டுவதை தடுக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r25.jpg" alt="Rule 25" />
+              <img src="/PartyImages/rules/r25.jpeg" alt="Rule 25" />
             </div>
           </section>
 
           <section>
             <h3>26. பனை விவசாயிகள் நலன் காக்க பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r26.jpg" alt="Rule 26" />
+              <img src="/PartyImages/rules/r26.jpeg" alt="Rule 26" />
             </div>
           </section>
 
@@ -209,7 +209,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>30. இளைஞர்களுக்கு சம வேலை வாய்ப்புக்காக பாடுபடுவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r30.jpg" alt="Rule 30" />
+              <img src="/PartyImages/rules/r30.jpeg" alt="Rule 30" />
             </div>
           </section>
 
@@ -237,7 +237,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>34. மக்களை பாதிக்கும் எந்த திட்டமாக இருந்தாலும் அதை எதிர்ப்பது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r34.jpg" alt="Rule 34" />
+              <img src="/PartyImages/rules/r34.jpeg" alt="Rule 34" />
             </div>
           </section>
 
@@ -258,7 +258,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>37. தமிழகம் முழுவதும் இருப்பதை இல்லாதவர்களுக்கு கொடுக்கும் திட்டத்தை தொடங்குவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r37.jpg" alt="Rule 37" />
+              <img src="/PartyImages/rules/r37.jpeg" alt="Rule 37" />
             </div>
           </section>
 
@@ -286,7 +286,7 @@ const RulesModal = ({ onClose }: Props) => {
           <section>
             <h3>41. சமூகத்தில் நீங்கள் எந்த வழியில் பாதிக்கப்பட்டிருந்தாலும் உங்களுக்காக நாங்கள் பாடுபடுகிறோம்.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r41.png" alt="Rule 41" />
+              <img src="/PartyImages/rules/r41.jpeg" alt="Rule 41" />
             </div>
           </section>
 
@@ -298,56 +298,49 @@ const RulesModal = ({ onClose }: Props) => {
           </section>
 
           <section>
-            <h3>43. தமிழர்களுக்காகவும் தமிழ் மொழிக்காகவும் பாடுபடுவோம்.</h3>
-            <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r43.jpg" alt="Rule 43" />
-            </div>
-          </section>
-
-          <section>
-            <h3>44. சனாதனத்தை எதிர்ப்போம்.</h3>
+            <h3>43. சனாதனத்தை எதிர்ப்போம்.</h3>
             <div className='rules-gallery'>
               <img src="/PartyImages/rules/r44.jpg" alt="Rule 44" />
             </div>
           </section>
 
           <section>
-            <h3>45. மனித உரிமைகளுக்காகவும் காவல் நிலைய லாக்கப் மரணங்களுக்கு எதிராக குரல் கொடுப்போம்.</h3>
+            <h3>44. மனித உரிமைகளுக்காகவும் காவல் நிலைய லாக்கப் மரணங்களுக்கு எதிராக குரல் கொடுப்போம்.</h3>
             <div className='rules-gallery'>
               <img src="/PartyImages/rules/r45.jpeg" alt="Rule 45" />
             </div>
           </section>
 
           <section>
-            <h3>46. ஆணவ படுகொலைக்கு எதிராக குரல் கொடுப்போம்.</h3>
+            <h3>45. ஆணவ படுகொலைக்கு எதிராக குரல் கொடுப்போம்.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r46.webp" alt="Rule 46" />
+              <img src="/PartyImages/rules/r46.jpeg" alt="Rule 46" />
             </div>
           </section>
 
           <section>
-            <h3>47. பாதிக்கப்பட்ட மக்களுக்கு சட்டப் போராட்டம் நடத்துவது.</h3>
+            <h3>46. பாதிக்கப்பட்ட மக்களுக்கு சட்டப் போராட்டம் நடத்துவது.</h3>
             <div className='rules-gallery'>
-              <img src="/PartyImages/rules/r47.jpg" alt="Rule 47" />
+              <img src="/PartyImages/rules/r47.jpeg" alt="Rule 47" />
             </div>
           </section>
 
           <section>
-            <h3>48. நில மோசடி, சிட்பண்ட்ஸ் மோசடிக்கு எதிராக குரல் கொடுப்பது.</h3>
+            <h3>47. நில மோசடி, சிட்பண்ட்ஸ் மோசடிக்கு எதிராக குரல் கொடுப்பது.</h3>
             <div className='rules-gallery'>
               <img src="/PartyImages/rules/r48.avif" alt="Rule 48" />
             </div>
           </section>
 
           <section>
-            <h3>49. சாதி இல்லாத சமூகத்தை உருவாக்கும் எம்மதமும் சம்மதம் என உணர பாடுபடுவோம்.</h3>
+            <h3>48. சாதி இல்லாத சமூகத்தை உருவாக்கும் எம்மதமும் சம்மதம் என உணர பாடுபடுவோம்.</h3>
             <div className='rules-gallery'>
               <img src="/PartyImages/rules/r49.jpg" alt="Rule 49" />
             </div>
           </section>
 
           <section>
-            <h3>50. திருநங்கைகள் வாழ்வாதாரம் உயர குரல் கொடுப்போம்.</h3>
+            <h3>49. திருநங்கைகள் வாழ்வாதாரம் உயர குரல் கொடுப்போம்.</h3>
             <div className='rules-gallery'>
               <img src="/PartyImages/rules/r50.jpg" alt="Rule 50" />
             </div>
