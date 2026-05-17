@@ -43,8 +43,8 @@ const About = () => {
 
   const leaders = [
     { name: 'Party President', role: 'Founder & State President', desc: 'Visionary leader dedicated to people\'s welfare and transparent governance.', img: '/PartyImages/LeaderPhotos/lead2.jpeg' },
-    { name: 'General Secretary', role: 'General Secretary', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/LeaderPhotos/lead3.jpeg' },
-    { name: 'Youth Wing Leader', role: 'Youth Wing President', desc: 'Empowering the next generation with education and opportunity.', img: '/PartyImages/LeaderPhotos/lead4.jpeg' },
+    { name: 'Mr. S. Vinodh Kumar', role: 'Founder', desc: 'Strategic thinker driving organizational growth across all districts.', img: '/PartyImages/LeaderPhotos/lead3.jpeg' },
+    { name: '', role: '', desc: 'Empowering the next generation with education and opportunity.', img: '/PartyImages/LeaderPhotos/lead4.jpeg' },
   ];
 
   return (
