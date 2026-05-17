@@ -40,9 +40,9 @@ const About = () => {
     { year: '2019', title: 'Student wing Launch', desc: 'A student wing is a subsidiary, autonomous, or allied front of a larger organization (like a political party, religious group, or social movement) dedicated to rallying support from college and university students' },
     { year: '2019', title: 'Women wing & Minorities Welfare wing Launch', desc: '' },
     { year: '2020', title: 'Agricultural & Fisherries wing  Launch', desc: '' },
-    { year: '2020', title: 'Youth Wing Launch', desc: 'Launched the youth wing to empower young leaders across Tamil Nadu.' },
-    { year: '2020', title: 'Youth Wing Launch', desc: 'Launched the youth wing to empower young leaders across Tamil Nadu.' },
-    { year: '2020', title: 'Youth Wing Launch', desc: 'Launched the youth wing to empower young leaders across Tamil Nadu.' },
+    { year: '2020', title: 'Medical wing & Literary wing', desc: '' },
+    { year: '2020', title: 'Unorganised driver & Advocate’s wing ', desc: '' },
+    { year: '2021', title: 'Sports wing & Art/culture wing ', desc: '' },
     { year: '2022', title: 'Membership Milestone', desc: 'Crossed 50,000 registered members across 38 districts.' },
     { year: '2026', title: 'Community Programs', desc: 'Launched free education, healthcare, and skill development programs statewide.' },
   ];

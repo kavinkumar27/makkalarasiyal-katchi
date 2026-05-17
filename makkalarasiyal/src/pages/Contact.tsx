@@ -76,22 +76,23 @@ const Contact = () => {
                 <div className="info-item">
                   <div className="info-icon info-icon-red">📍</div>
                   <div>
-                    <h3>Our Office</h3>
-                    <p>123 Main Road, T. Nagar,<br />Chennai, Tamil Nadu - 600017</p>
+                    <h3>Our Head Office</h3>
+                    <p>2/A,Siva Nagar, near Venkateswara Theatre, Poonamallee, Chennai,<br />Tamil Nadu - 600 056</p>
+                    <span><b>Branch Office: </b> 2/A,g.p nagar, near palnakuppam, Tirupathur,<br />Tamil Nadu -635601</span>
                   </div>
                 </div>
                 <div className="info-item">
                   <div className="info-icon info-icon-blue">📞</div>
                   <div>
                     <h3>Phone</h3>
-                    <p>+91 98765 43210<br />+91 44 2815 0000</p>
+                    <p>+91 89252 94257<br /></p>
                   </div>
                 </div>
                 <div className="info-item">
                   <div className="info-icon info-icon-green">✉️</div>
                   <div>
                     <h3>Email</h3>
-                    <p>info@makkalarasial.com<br />support@makkalarasial.com</p>
+                    <p>makkalarasialkatchi@gmail.com</p>
                   </div>
                 </div>
                 <div className="info-item">
@@ -107,15 +108,15 @@ const Contact = () => {
               <div className="contact-social">
                 <h3>Follow Us</h3>
                 <div className="contact-social-links">
-                  <a href="#" className="csocial-link" id="contact-fb">Facebook</a>
-                  <a href="#" className="csocial-link" id="contact-tw">Twitter / X</a>
+                  <a href="https://www.facebook.com/makkalarasialkatchi.makkalarasialkatchi" className="csocial-link" id="contact-fb">Facebook</a>
+                  <a href="https://x.com/MAKKALARASIAL" className="csocial-link" id="contact-tw">Twitter / X</a>
                   <a href="#" className="csocial-link" id="contact-ig">Instagram</a>
                   <a href="#" className="csocial-link" id="contact-yt">YouTube</a>
                 </div>
               </div>
 
               {/* WhatsApp */}
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="whatsapp-contact-btn" id="contact-whatsapp">
+              <a href="https://wa.me/918925294257" target="_blank" rel="noopener noreferrer" className="whatsapp-contact-btn" id="contact-whatsapp">
                 💬 Chat on WhatsApp
               </a>
             </div>
