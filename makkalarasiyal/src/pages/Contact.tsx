@@ -81,13 +81,7 @@ const Contact = () => {
                     <span><b>Branch Office: </b> 2/A,g.p nagar, near palnakuppam, Tirupathur,<br />Tamil Nadu -635601</span>
                   </div>
                 </div>
-                <div className="info-item">
-                  <div className="info-icon info-icon-blue">📞</div>
-                  <div>
-                    <h3>Phone</h3>
-                    <p>+91 89252 94257<br /></p>
-                  </div>
-                </div>
+                
                 <div className="info-item">
                   <div className="info-icon info-icon-green">✉️</div>
                   <div>
@@ -110,22 +104,22 @@ const Contact = () => {
                 <div className="contact-social-links">
                   <a href="https://www.facebook.com/makkalarasialkatchi.makkalarasialkatchi" className="csocial-link" id="contact-fb">Facebook</a>
                   <a href="https://x.com/MAKKALARASIAL" className="csocial-link" id="contact-tw">Twitter / X</a>
-                  <a href="#" className="csocial-link" id="contact-ig">Instagram</a>
-                  <a href="#" className="csocial-link" id="contact-yt">YouTube</a>
+                  <a href="https://www.instagram.com/makkal_arasial_katchi.official?igsh=MW45ZGVscWFya3hidQ%3D%3D" className="csocial-link" id="contact-ig">Instagram</a>
+                  <a href="https://www.youtube.com/@makkalarasialkatchi2019" className="csocial-link" id="contact-yt">YouTube</a>
                 </div>
               </div>
 
               {/* WhatsApp */}
-              <a href="https://wa.me/918925294257" target="_blank" rel="noopener noreferrer" className="whatsapp-contact-btn" id="contact-whatsapp">
+              {/* <a href="https://wa.me/918925294257" target="_blank" rel="noopener noreferrer" className="whatsapp-contact-btn" id="contact-whatsapp">
                 💬 Chat on WhatsApp
-              </a>
+              </a> */}
             </div>
           </div>
 
           {/* Google Map */}
           <div className="contact-map" id="contact-map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7965870092517!2d80.23209337507822!3d13.04086098727798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267f19e6a38e5%3A0x90a46a30ab7e4e3c!2sT.%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.130721634314!2d78.57302377483347!3d12.526466787749538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac55c39f3cac99%3A0x53ff8a650482bb89!2sMAKKAL%20ARASIYAL%20KATCHI!5e1!3m2!1sen!2sin!4v1779182179496!5m2!1sen!2sin"
               width="100%"
               height="400"
               style={{ border: 0, borderRadius: 'var(--radius-lg)' }}
