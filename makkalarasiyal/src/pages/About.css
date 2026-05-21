@@ -76,8 +76,8 @@
 .leaders-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .leader-card { background: white; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-color); transition: all var(--transition-base); }
 .leader-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-.leader-card-img { height: 280px; overflow: hidden; }
-.leader-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.leader-card-img { height: 300px; overflow: hidden; }
+.leader-card-img img { width: 100%; height: 300px;object-position: top center; object-fit: cover; transition: transform 0.5s ease; }
 .leader-card:hover .leader-card-img img { transform: scale(1.05); }
 .leader-card-info { padding: 24px; text-align: center; }
 .leader-card-info h3 { font-size: 1.2rem; font-weight: 800; margin-bottom: 4px; }
